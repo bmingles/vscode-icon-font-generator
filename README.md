@@ -8,6 +8,9 @@ npm run gen -- /dir/containing/svg/files/
 
 ## Output
 
+Files will be output to the `/dist` folder.
+
 - icons.woff, icons.woff2, icons.eot - font files
 - icons.json - mapping of icon ids to decimal character codes
 - iconsHex.json - mapping of icon ids to hexidecimal character codes (needed for `vscode` icon font contributions)
+- icons.html, icons.css - preview the icon set in browser
