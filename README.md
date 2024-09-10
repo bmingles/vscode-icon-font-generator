@@ -1,6 +1,6 @@
 # Vscode Icon Font Generator
 
-Generate Icon Font for Usage with vscode Extensions
+Generate Icon Font for Usage with vscode Extensions (uses [fantasticon](https://www.npmjs.com/package/fantasticon) under the hood but includes a mapping of hexidecimal codes).
 
 ```sh
 npm run gen -- /dir/containing/svg/files/
