@@ -1,0 +1,16 @@
+{
+  "name": "vscode-icon-font-generator",
+  "version": "1.0.0",
+  "private": true,
+  "decription": "Generate icon fonts from svgs for usage with vscode extensions",
+  "main": "src/index.mjs",
+  "keywords": [],
+  "author": "Brian Ingles <brianingles@illumon.com>",
+  "license": "Apache-2.0",
+  "scripts": {
+    "gen": "rm -f dist/* && node ."
+  },
+  "devDependencies": {
+    "fantasticon": "^3.0.0"
+  }
+}
